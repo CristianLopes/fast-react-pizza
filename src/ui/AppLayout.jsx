@@ -14,7 +14,7 @@ function AppLayout() {
       <Header />
 
      <div className='overflow-scroll'>
-        <main className='flex h-full items-center justify-center'>
+        <main className='h-full py-5'>
             <Outlet />
           </main>
      </div>

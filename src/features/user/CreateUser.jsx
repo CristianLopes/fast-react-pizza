@@ -21,7 +21,7 @@ function CreateUser() {
         className='w-72 px-2 py-2 border border-stone-200 rounded-lg'
       />
 
-      <button className='w-32 bg-yellow-500 px-2 py-2 rounded-full text-stone-50 font-semibold hover:bg-yellow-600 hover:text-stone-200'> Save Changes </button>
+      <button className='w-32 bg-yellow-500 px-2 py-2 rounded-full text-stone-50 font-semibold hover:bg-yellow-600 hover:text-stone-200 transition-colors duration-300'> Save Changes </button>
 
       {username !== '' && (
         <div>
