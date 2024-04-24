@@ -48,6 +48,7 @@ function CreateOrder() {
         <div>
           <label>First Name</label>
           <input
+            className='input'
             type='text'
             name='customer'
             required
@@ -58,6 +59,7 @@ function CreateOrder() {
           <label>Phone number</label>
           <div>
             <input
+              className='input'
               type='tel'
               name='phone'
               required
@@ -70,6 +72,7 @@ function CreateOrder() {
           <label>Address</label>
           <div>
             <input
+              className='input'
               type='text'
               name='address'
               required
@@ -79,8 +82,7 @@ function CreateOrder() {
 
         <div>
           <input
-            className='h-6 w-6 accent-yellow-500
-            focus:outline-none focus:ring focus:ring-yellow-500 focus:ring-offset-2'
+            className='h-6 w-6 accent-yellow-500 focus:outline-none focus:ring focus:ring-yellow-500 focus:ring-offset-2'
             type='checkbox'
             name='priority'
             id='priority'
