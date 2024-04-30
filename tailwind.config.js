@@ -3,16 +3,16 @@ export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     fontFamily: {
-      sans: 'Roboto Mono, monospace'
+      sans: 'Roboto Mono, monospace',
     },
     extend: {
-      colors:{
-        primary: "#223344"
+      colors: {
+        primary: '#223344',
       },
 
-      height:{
+      height: {
         screen: '100dvh',
-      }
+      },
     },
   },
   plugins: [],
